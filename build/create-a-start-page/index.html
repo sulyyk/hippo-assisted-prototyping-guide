@@ -135,7 +135,7 @@
 <p>On GOV.UK, start pages follow a consistent pattern: a clear heading, a short description of the service, bullet points listing what the user will need, and a prominent start button.</p>
 <h2>The prompt</h2>
 <p>In Gemini CLI (Terminal 2), paste the following prompt:</p>
-<pre><code>Create a GOV.UK start page for a service called &quot;Report a building issue&quot;.
+<div class="code-block"><code>Create a GOV.UK start page for a service called &quot;Report a building issue&quot;.
 
 The page should be at app/views/start.html and extend the main layout using {% extends &quot;layouts/main.html&quot; %}.
 
@@ -147,7 +147,7 @@ The page content should include:
 - A paragraph below the button with a link to a sign in page (href=&quot;/sign-in&quot;): &quot;If you have reported an issue before, you can sign in to track your reports.&quot;
 
 Use GOV.UK Frontend classes throughout. The button should use the correct GOV.UK start button markup with the SVG arrow icon.
-</code></pre>
+</code></div>
 <p>Gemini will ask permission to create the file. Type <strong>yes</strong>.</p>
 <h2>Check your browser</h2>
 <p>Go to <code>http://localhost:3000/start</code> in your browser.</p>

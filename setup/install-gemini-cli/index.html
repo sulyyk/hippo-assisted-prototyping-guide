@@ -144,8 +144,8 @@
 <p>Open a <strong>new</strong> terminal in VS Code. You need a second terminal because your prototype is still running in the first one.</p>
 <p>To open a new terminal, click the <strong>+</strong> icon in the terminal panel, or go to <strong>Terminal → New Terminal</strong>.</p>
 <p>In the new terminal, type:</p>
-<pre><code>npm install -g @google/gemini-cli
-</code></pre>
+<div class="code-block"><code>npm install -g @google/gemini-cli
+</code></div>
 <p>This installs Gemini CLI once on your computer. You only need to do this step once.</p>
 <details>
   <summary>I get a 'permission denied' error</summary>
@@ -158,9 +158,9 @@
 </details>
 <h2>Step 2: Start Gemini CLI</h2>
 <p>Navigate into your prototype project folder, then start Gemini CLI:</p>
-<pre><code>cd ~/prototypes/report-building-issue
+<div class="code-block"><code>cd ~/prototypes/report-building-issue
 npx @google/gemini-cli
-</code></pre>
+</code></div>
 <p>You will use <code>npx</code> every time you want to start Gemini CLI. This is different from the <code>npm install</code> command in Step 1, which you only run once. Think of <code>npm install</code> as putting a tool in your toolbox, and <code>npx</code> as picking it up and using it.</p>
 <p>Gemini CLI must be started from inside your prototype folder – this is how it knows which files to read and edit.</p>
 <p>The first time you run it, it will ask you to sign in with Google.</p>
@@ -186,8 +186,8 @@ npx @google/gemini-cli
 <p>You will also see <strong>auto-accept edits</strong> at the top of the interface. Leave this off – it means Gemini will ask your permission before making any changes to files, which is a useful safety net while you are learning.</p>
 <h2>Step 4: Test it with a simple prompt</h2>
 <p>Type the following:</p>
-<pre><code>What files and folders are in this project? Give me a brief summary.
-</code></pre>
+<div class="code-block"><code>What files and folders are in this project? Give me a brief summary.
+</code></div>
 <p>Gemini should describe the project structure, mentioning <code>app/views</code>, <code>app/assets</code>, and <code>package.json</code>.</p>
 <p>If it asks for permission to read files, type <strong>yes</strong>. Gemini always asks before reading or changing files.</p>
 <div class="inset-text">

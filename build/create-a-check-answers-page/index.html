@@ -135,7 +135,7 @@
 <p>The GOV.UK Design System calls this the <a href="https://design-system.service.gov.uk/patterns/check-answers/">check answers pattern</a>. It uses a summary list component to show each question and answer with a &quot;Change&quot; link next to each one.</p>
 <h2>The prompt</h2>
 <p>In Gemini CLI, paste this prompt:</p>
-<pre><code>Create a GOV.UK check answers page at app/views/check-answers.html.
+<div class="code-block"><code>Create a GOV.UK check answers page at app/views/check-answers.html.
 
 The page should extend &quot;layouts/main.html&quot;.
 
@@ -150,7 +150,7 @@ Include:
 - A form with method=&quot;post&quot; action=&quot;/check-answers&quot; containing a &quot;Accept and send&quot; button using govuk-button
 
 Use the full govuk-summary-list markup including govuk-summary-list__row, govuk-summary-list__key, govuk-summary-list__value, and govuk-summary-list__actions. The change links should use govuk-link class and include a &lt;span class=&quot;govuk-visually-hidden&quot;&gt; for screen reader context.
-</code></pre>
+</code></div>
 <p>Type <strong>yes</strong> when prompted.</p>
 <h2>Check your browser</h2>
 <p>Go to <code>http://localhost:3000/check-answers</code>.</p>
