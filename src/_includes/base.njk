@@ -32,7 +32,7 @@
         <ul class="sidebar__list">
           {% for item in section.pages %}
           <li>
-            <a href="{{ item.url }}" class="sidebar__link{% if page.url == item.url %} sidebar__link--active{% endif %}">
+            <a href="{{ item.url | url }}" class="sidebar__link{% if page.url == item.url %} sidebar__link--active{% endif %}">
               {{ item.title }}
             </a>
           </li>
