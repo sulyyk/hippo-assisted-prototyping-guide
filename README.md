@@ -268,6 +268,6 @@ All styles are in `src/css/style.css`. Hippo brand variables are defined at the 
 
 ## How publishing works
 
-Merging a pull request into `main` triggers a GitHub Actions build and deploys to GitHub Pages automatically. It usually takes under 2 minutes. No manual deploy steps are needed.
+Merging a pull request into `main` triggers a GitHub Actions build and deploys to GitHub Pages. It usually takes under 2 minutes. No manual deploy steps are needed.
 
 The workflow is in `.github/workflows/deploy.yml`.
