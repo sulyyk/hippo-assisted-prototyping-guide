@@ -8,6 +8,16 @@ module.exports = function (eleventyConfig) {
     return pageUrl === linkUrl;
   });
 
+  // Render fenced code blocks as .code-block divs so they pick up
+  // the navy styling and copy button from the existing CSS/JS
+  eleventyConfig.amendLibrary("md", (md) => {
+    md.renderer.rules.fence = function (tokens, idx) {
+      const token = tokens[idx];
+      const escaped = md.utils.escapeHtml(token.content);
+      return `<div class="code-block"><code>${escaped}</code></div>\n`;
+    };
+  });
+
   return {
     pathPrefix: "/hippo-assisted-prototyping-guide/",
     dir: {
