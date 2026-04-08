@@ -20,7 +20,7 @@ In the VS Code terminal, type the following and press Enter:
 node --version
 ```
 
-If you see a version number starting with **v20** or higher (for example, `v20.11.0`), you already have a compatible version. Skip to the [next page](install-the-prototype-kit.html).
+If you see a version number starting with **v20** or higher (for example, `v20.11.0`), you already have a compatible version. Skip to the [next page](../install-the-prototype-kit/).
 
 If you see an error like `command not found`, or a version lower than 20, continue below.
 
