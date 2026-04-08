@@ -59,9 +59,6 @@ It helps if you are familiar with:
 
 Some experience with HTML and CSS makes it easier to review what Gemini produces. It is not required.
 
-## How long this will take
-Setting up all the tools takes about 30 minutes, depending on your internet connection. You only need to do this once.
-
 <nav class="pagination" aria-label="Pagination">
   <a href="../install-a-code-editor/" class="pagination__link pagination__link--next">
     <span class="pagination__direction">Next</span>
